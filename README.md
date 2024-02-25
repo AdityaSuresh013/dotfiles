@@ -1,6 +1,6 @@
 <h1 align="center">AdityaSuresh013/dotfiles</h1>
 
-<img src="desktop.png" width="100%" />
+<img src=".github/desktop.png" width="100%" />
 
 This is where I keep all of my dotfiles.
 
