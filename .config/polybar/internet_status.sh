@@ -9,3 +9,8 @@ then
 else
     echo "󰤭 "
 fi
+
+# get_latency() {
+#     # Extract average latency from the ping command
+#     ping -c $PING_COUNT $TARGET | awk -F'/' 'END { print $5 }'
+# }
