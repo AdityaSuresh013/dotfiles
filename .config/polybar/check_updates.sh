@@ -1,5 +1,8 @@
 #!/bin/bash
 
+# Update package list without requiring password
+sudo apt-get update -qq
+
 # Check for package updates
 updates=$(apt list --upgradable 2>/dev/null | grep -v 'Listing...' | wc -l)
 
